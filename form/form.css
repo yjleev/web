@@ -29,7 +29,7 @@ header {
     margin: auto 0;
     display: flex;
     justify-content: space-between;
-    border-radius: 20px 20px 20px 0px;
+    border-radius: 20px 20px 20px 20px;
     background-color: rgb(250, 243, 234);
 }
 .link > a, .dropdown > div, .dropdown > a {
@@ -49,7 +49,7 @@ header {
     height: 100px;
     overflow: hidden;
     transition: 0.3s;
-    border-radius: 20px 0px 0px 0px;
+    border-radius: 20px 0px 0px 20px;
 }
 .dropdown > div, .dropdown > a {
     width: 210px;
