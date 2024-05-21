@@ -113,65 +113,30 @@ footer {
     background-color: rgb(202, 202, 202);
     margin: 0 auto;
     margin-top: 150px;
-    margin-bottom: 20px;
-    border-radius: 20px;
-}
-section > form {
-    background-color: #fff;
-    padding: 10px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-}
-section {
-    list-style: none;
-}
-fieldset {
-    padding: 10px;
-}
-fieldset > li {
-    margin-bottom: 15px;
-}
-legend {
-    margin: 0 auto;
-}
-.join2 {
-    width: 600px;
-    padding: 10px;
-    background-color: rgb(202, 202, 202);
-    margin: 0 auto;
-    margin-top: 20px;
     margin-bottom: 30px;
     border-radius: 20px;
 }
-.join1 {
-    width: 600px;
+.join > form {
+    background-color: #fff;
     padding: 10px;
-    background-color: rgb(202, 202, 202);
-    margin: 0 auto;
     border-radius: 20px;
 }
-.yaho {
-    height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.yaho1 {
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.join fieldset {
-    display: flex;
-    flex-direction: column;
-}
-.checkbox1 > div {
-    display: flex;
-}
-.last {
-    width: 100px;
+.join > form > input{
+    margin-left: 500px;
+    width: 50px;
     height: 30px;
-    margin: 10px 0px 5px 400px;
+}
+form h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+.infor {
+    width: 550px;
+    height: 400px;
+    overflow: scroll;
+    border: 1px solid;
+    margin: 20px 13px;
+}
+.checkbox {
+    margin-left: 15px;
 }
