@@ -28,8 +28,11 @@ title2.addEventListener("click",(e)=>{
     title2.classList.toggle("red")
 })
 
+
+
+
 const fucntionalCode = () => {
-    console.log("정동일 게이")
+    console.log("이선재 게이")
 }
 
 fucntionalCode();
