@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>06 absolute</title>
+    <style>
+        #wrap{
+            position: relative; /* 절대적인 */
+            width: 300px;
+            height: 300px;
+            border: 1px solid #ccc;
+            margin: 150px auto;
+        }
+        .box{
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background-color: #0094ff;
+            color: #fff;
+            text-align: center;
+            line-height: 50px;
+        }
+        #cr1{
+            top:0;
+            left: 0;
+        }
+        #cr2{
+            top:0;
+            right: 0;
+        }
+        #cr3{
+            bottom:0;
+            left: 0;
+        }
+        #cr4{
+            bottom:0;
+            right: 0;
+        }
+        #cr5{
+            top: 125px;
+            left: 125px;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div class="box" id="cr1">1</div>
+        <div class="box" id="cr2">2</div>
+        <div class="box" id="cr3">3</div>
+        <div class="box" id="cr4">4</div>
+        <div class="box" id="cr5">5</div>
+    </div>
+</body>
+</html>
