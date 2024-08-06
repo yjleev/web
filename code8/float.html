@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            width: 600px;
+            height: 600px;
+            border: 2px solid black;
+            margin: 100px auto;
+            box-sizing: border-box;
+        }
+        header{
+            width: 600px;
+            height: 102px;
+            float: top;
+            border: 2px solid black;
+            margin: -2px 0px 0px -2px;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 102px;
+        }
+        nav{
+            width: 150px;
+            height: 400px;
+            float: left;
+            border: 2px solid black;
+            margin: -2px -2px 0px -2px;
+            box-sizing: border-box;
+        }
+        article{
+            width: 300px;
+            height: 396px;
+            float: left;
+            border: 2px solid black;
+            margin-top: -2px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            list-style: none;
+        }
+        ul{
+            margin: 0 auto;
+        }
+        aside{
+            width: 150px;
+            height: 400px;
+            float: left;
+            border: 2px solid black;
+            margin: -2px -2px 0px -2px;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        img{
+            margin: 0 auto;
+        }
+        .logo{
+            margin: 12.5px 0px 0px 132.5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>〓 서울디지텍고등학교 〓</h1>
+        </header>
+        <nav></nav>
+        <article>
+            <!-- <li class="main">
+                <ul><h2>2025학년도 신입생모집</h2></ul>
+                <ul>
+                    <h4>전형 일정</h4>
+                    <p></p>
+                </ul>
+                <ul>
+                    <h4>모집 정원 및 학급 수</h4>
+                    <p></p>
+                </ul>
+            </li>
+            <img src="../images/진로상담.png" alt="img1" width="300px"> -->
+        </article>
+        <aside>
+            <!-- <img src="../images/코딩.png" alt="img1" width="110px">
+            <img src="../images/그림.png" alt="img2" width="100px">
+            <img src="../images/학교.png" alt="img3" width="110px"> -->
+        </aside>
+        <footer>
+            <img src="../images/digitech_logo.png" alt="img3" width="325px" class="logo">
+        </footer>
+    </div>
+</body>
+</html>
