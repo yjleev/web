@@ -34,6 +34,27 @@
             margin: -2px -2px 0px -2px;
             box-sizing: border-box;
         }
+        .list{
+            margin-top: 27.5px;
+            height: 335px;
+            list-style: none;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+        .list ul{
+            transition: 0.5s;
+            height: 25.33px;
+            overflow: hidden; 
+        }
+        ul>h3{
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        ul:hover{
+            height: 175px;
+        }
         article{
             width: 300px;
             height: 396px;
@@ -72,7 +93,30 @@
         <header>
             <h1>〓 서울디지텍고등학교 〓</h1>
         </header>
-        <nav></nav>
+        <nav>
+            <li class="list">
+                <ul>
+                    <h3>엠블럼</h3>
+                    <img src="../images/엠블럼.png" alt="img1" width="120px">
+                </ul>
+                <ul>
+                    <h3>교목</h3>
+                    <img src="../images/은행나무.png" alt="img2" width="120px">
+                </ul>
+                <ul>
+                    <h3>교화</h3>
+                    <img src="../images/교화.jpg" alt="img3" width="120px">
+                </ul>
+                <ul>
+                    <h3>프밍</h3>
+                    <img src="../images/c++.png" alt="img4" width="140px">
+                </ul>
+                <ul>
+                    <h3>그래픽</h3>
+                    <img src="../images/photoshop.png" alt="img5" width="130px">
+                </ul>
+            </li>
+        </nav>
         <article>
             <!-- <li class="main">
                 <ul><h2>2025학년도 신입생모집</h2></ul>
