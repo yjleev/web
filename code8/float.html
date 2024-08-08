@@ -34,14 +34,17 @@
             margin: -2px -2px 0px -2px;
             box-sizing: border-box;
         }
-        .list{
-            margin-top: 27.5px;
-            height: 335px;
+        li{
             list-style: none;
-            text-align: center;
+
             display: flex;
             flex-direction: column;
             justify-content: space-around;
+        }
+        .list{
+            margin-top: 27.5px;
+            height: 335px;
+            text-align: center;
         }
         .list ul{
             transition: 0.5s;
@@ -55,6 +58,9 @@
         ul:hover{
             height: 175px;
         }
+        ul{
+            margin: 0 auto;
+        }
         article{
             width: 300px;
             height: 396px;
@@ -66,9 +72,7 @@
             justify-content: space-between;
             list-style: none;
         }
-        ul{
-            margin: 0 auto;
-        }
+        
         aside{
             width: 150px;
             height: 400px;
@@ -76,9 +80,6 @@
             border: 2px solid black;
             margin: -2px -2px 0px -2px;
             box-sizing: border-box;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-evenly;
         }
         img{
             margin: 0 auto;
@@ -118,23 +119,34 @@
             </li>
         </nav>
         <article>
-            <!-- <li class="main">
+            <li class="main">
                 <ul><h2>2025학년도 신입생모집</h2></ul>
-                <ul>
-                    <h4>전형 일정</h4>
-                    <p></p>
-                </ul>
-                <ul>
-                    <h4>모집 정원 및 학급 수</h4>
-                    <p></p>
-                </ul>
+                <ul><img src="../images/체크박스.png" alt="img6" width="20px"></ul>
             </li>
-            <img src="../images/진로상담.png" alt="img1" width="300px"> -->
         </article>
         <aside>
-            <!-- <img src="../images/코딩.png" alt="img1" width="110px">
-            <img src="../images/그림.png" alt="img2" width="100px">
-            <img src="../images/학교.png" alt="img3" width="110px"> -->
+            <li class="list">
+                <ul>
+                    <h3>엠블럼</h3>
+                    <img src="../images/엠블럼.png" alt="img1" width="120px">
+                </ul>
+                <ul>
+                    <h3>교목</h3>
+                    <img src="../images/은행나무.png" alt="img2" width="120px">
+                </ul>
+                <ul>
+                    <h3>교화</h3>
+                    <img src="../images/교화.jpg" alt="img3" width="120px">
+                </ul>
+                <ul>
+                    <h3>프밍</h3>
+                    <img src="../images/c++.png" alt="img4" width="140px">
+                </ul>
+                <ul>
+                    <h3>그래픽</h3>
+                    <img src="../images/photoshop.png" alt="img5" width="130px">
+                </ul>
+            </li>
         </aside>
         <footer>
             <img src="../images/digitech_logo.png" alt="img3" width="325px" class="logo">
