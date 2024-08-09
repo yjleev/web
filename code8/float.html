@@ -36,7 +36,6 @@
         }
         li{
             list-style: none;
-
             display: flex;
             flex-direction: column;
             justify-content: space-around;
@@ -51,14 +50,14 @@
             height: 25.33px;
             overflow: hidden; 
         }
-        ul>h3{
+        .list h3{
             cursor: pointer;
             margin-bottom: 10px;
         }
-        ul:hover{
+        .list ul:hover{
             height: 175px;
         }
-        ul{
+        .list ul{
             margin: 0 auto;
         }
         article{
@@ -72,7 +71,18 @@
             justify-content: space-between;
             list-style: none;
         }
-        
+        .main{  
+            margin: 30px auto;
+            height: 325px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .main img{
+            display: inline;
+            position: relative;
+            top: 3px;
+        }
         aside{
             width: 150px;
             height: 400px;
@@ -81,7 +91,7 @@
             margin: -2px -2px 0px -2px;
             box-sizing: border-box;
         }
-        img{
+        .list img{
             margin: 0 auto;
         }
         .logo{
@@ -121,7 +131,32 @@
         <article>
             <li class="main">
                 <ul><h2>2025학년도 신입생모집</h2></ul>
-                <ul><img src="../images/체크박스.png" alt="img6" width="20px"></ul>
+                <ul>
+                    <img src="../images/체크박스.png" alt="img6" width="20px">
+                    <span><b>모집 정원 및 학급 수</b></span>
+                    <br><span>
+                        <li>4학급 학급당 20명</li>
+                        <li>(학급수 및 모집정원 변경될 수 있음)</li>
+                    </span>
+                </ul>
+                <ul>
+                    <img src="../images/체크박스.png" alt="img6" width="20px">
+                    <span><b>원서 교부 및 접수 방법</b></span>
+                    <br><span>
+                        <ul>기간:2024.11.20(수)~2024:12.11(수)
+                            <li>-경기도: 종이원서 제출</li>
+                            <li>-서울: 온라인 원서 제출</li>
+                        </ul>
+                    </span>
+                </ul>
+                <ul>
+                    <img src="../images/체크박스.png" alt="img6" width="20px">
+                    <span><b>전형 일정</b></span>
+                    <br><span>
+                        <li>전형 기간: 2024.12.16(월)</li>
+                        <li>합격자 발표: 2024.12.19(목)</li>
+                    </span>
+                </ul>
             </li>
         </article>
         <aside>
