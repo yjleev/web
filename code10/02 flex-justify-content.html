@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>02 flex-justify-content</title>
+    <style>
+        .container{
+            width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            font-weight: bold;
+        }
+        .wrapper{
+            width: 500px;
+            height: 100px;
+            border: 1px dotted red;
+            display: flex;
+        }
+        .wrapper div{
+            width: 100px;
+            height: 100px;
+            background-color: #ccc;
+            box-sizing: border-box;
+            border: 2px solid black;
+        }
+        #con1{
+            justify-content: flex-start;
+        }
+        #con2{
+            justify-content: flex-end;
+        }
+        #con3{
+            justify-content: center;
+        }
+        #con4{
+            justify-content: space-between;
+        }
+        #con5{
+            justify-content: space-around;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>justify-content : flex-start (기본값)</h2>
+        <div id="con1" class="wrapper">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>justify-content : flex-end</h2>
+        <div id="con2" class="wrapper">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>justify-content : center</h2>
+        <div id="con3" class="wrapper">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>justify-content : space-between</h2>
+        <div id="con4" class="wrapper">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+        </div>
+    </div>
+    <div class="container">
+        <h2>justify-content : space-around</h2>
+        <div id="con5" class="wrapper">
+            <div><p>1</p></div>
+            <div><p>2</p></div>
+            <div><p>3</p></div>
+        </div>
+    </div>
+</body>
+</html>

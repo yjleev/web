@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #e4fdff;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #eee;
+}
+
+header {
+    position: relative;
+    background-image: url(../img/slide.jpg);
+    height: 280px;
+    background-size: 960px 280px;
+}
+
+header .t1 {
+    position: absolute;
+    top: 30px;
+    right: 35px;
+    font-weight: bold;
+    font-size: 35px;
+    color: #ffaa00;
+    text-shadow: 1px 2px 3px rgb(122, 201, 96);
+}
+l
+header .t2 {
+    position: absolute;
+    top: 75px;
+    right: 35px;
+    font-size: 20px;
+    color: #0a2196;
+}
+
+header .t3 {
+    position: absolute;
+    top: 95px;
+    right: 35px;
+    font-size: 20px;
+    color: #0a2196;
+}
+
+.navi {
+    background-color: #0c94c1;
+    margin-top: -16px;
+    height: 60px;
+}
+
+.navi ul {
+    list-style: none;
+    height: 40px;
+    line-height: 40px;
+}
+
+.navi ul li {
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float: left;
+}
+
+.navi a,
+.navi a:visited {
+    color: #eee;
+    padding: 10px 5px 5px 45px;
+    display: block;
+    width: 150px;
+}
+
+.navi a:hover,
+.navi a:active,
+.navi a:focus {
+    color: #f59d04;
+    text-shadow: 0 1px 1px #333;
+    background-color: #4dd2ff;
+    height: 45px;
+}
+
+.content h2 {
+    margin-left: 10px;
+    color: #f59d04;
+}
+
+.content h3 {
+    margin-left: 10px;
+    color: #636363;
+}
+
+.content p {
+    text-align: justify;
+    padding: 10px;
+    line-height: 23px;
+}
+
+.content {
+    float: left;
+    width: 720px;
+    font-size: 14px;
+}
+
+.banner img {
+    width: 710px;
+    height: 208px;
+    margin-left: 10px;
+}
+
+.slidebar {
+    float: right;
+    width: 200px;
+    height: 500px;
+    padding-top: 20px;
+}
+
+.slidebar img {
+    width: 180px;
+    height: 115px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    opacity: .8;
+    text-align: center;
+    transition: .2s;
+}
+
+.slidebar img:hover {
+    opacity: 1;
+    border: 1px solid #999;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    background-color: #375474;
+    color: #fff;
+    height: 150px;
+    padding-top: 20px;
+}
+
+footer p {
+    line-height: 14px;
+}
