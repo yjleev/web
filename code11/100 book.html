@@ -12,15 +12,16 @@
         }
         .book{
             margin: 50px auto;
+            perspective: 1000px;
         }
+        .book>
         .page{
             background-color: blue;
-            perspective: 10px;
             transform-origin: left;
         }
         .book:hover .page{
-            transform: rotateY(180deg);
-            transition: 0.5s ease-in-out;
+            transform: rotateY(-180deg);
+            transition: 1s ease-in-out;
         }
     </style>
 </head>
