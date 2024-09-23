@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>04 skew</title>
+    <style>
+        .origin{
+            width: 160px;
+            height: 240px;
+            float: left;
+            margin: 30px;
+            border: 1px solid #333;
+            cursor: pointer;
+        }
+        .skew_x:hover{
+            transform: skewX(20deg);
+        }
+        .skew_y:hover{
+            transform: skewY(30deg);
+        }
+        .skew_xy:hover{
+            transform: skew(-25deg, -30deg);
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="skew_x">
+            <img src="../images/rose.jpg" alt="rose1">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="skew_y">
+            <img src="../images/rose.jpg" alt="rose2">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="skew_xy">
+            <img src="../images/rose.jpg" alt="rose3">
+        </div>
+    </div>
+</body>
+</html>

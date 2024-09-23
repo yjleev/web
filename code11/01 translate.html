@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01 transision</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .origin{
+            float: left;
+            width: 200px;
+            height: 125px;
+            margin: 40px;
+            cursor: pointer;
+        }
+        .move_x:hover{
+            transform: translateX(90px);
+        }
+        .move_y:hover{
+            transform: translateY(-70px);
+        }
+        .move_xy:hover{
+            transform: translate(70px, 60px);
+        }
+    </style>
+</head>
+<body>
+    <div class="origin">
+        <div class="move_x">
+            <img src="../images/bus.jpg" alt="bus1">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="move_y">
+            <img src="../images/bus.jpg" alt="bus2">
+        </div>
+    </div>
+    <div class="origin">
+        <div class="move_xy">
+            <img src="../images/bus.jpg" alt="bus3">
+        </div>
+    </div>
+</body>
+</html>
