@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>07 tr-delay</title>
+    <style>
+        #wrap{
+            width: 500px;height: 150px;
+            margin: 0 auto;
+            border: 1px solid #888;
+            background-color: antiquewhite;
+            border-radius: 20px;
+            cursor: pointer;
+            padding: 20px;
+        }
+        #wrap:hover .box{
+            margin-left: 450px;
+            transform: rotate(720deg);
+        }
+        .box{
+            width: 60px;
+            height: 60px;background-color: #eee;
+            margin-bottom: 10px;
+            font-style: 12px;
+            text-align: center;
+            align-content: center;
+        }
+        #no-delay{
+            transition-duration: 3s;
+            border: 1px solid orangered;
+        }
+        #delay{
+            transition-duration: 3s;
+            transition-delay: 0.5s;
+            border: 1px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="no-delay" class="box">No-Delay</div>
+        <div id="delay" class="box">Delay</div>
+    </div>
+</body>
+</html>
